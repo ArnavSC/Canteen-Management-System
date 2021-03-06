@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1087062087868",
+    "firebase_url": "https://devgeeks-bbf71.firebaseio.com",
+    "project_id": "devgeeks-bbf71",
+    "storage_bucket": "devgeeks-bbf71.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1087062087868:android:bb129da7d81884067998b9",
+        "android_client_info": {
+          "package_name": "com.example.canteenmanagementsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1087062087868-mmq3ijhrn9r2urshhd2bf4o4ni3ianpi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.canteenmanagementsystem",
+            "certificate_hash": "9dd0f2e09a5075695db72961fbe47ccd17bcdc0d"
+          }
+        },
+        {
+          "client_id": "1087062087868-8bn103veu4kgs6m5mdbimf1l71ttqgc1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHFbpwRtUbwZLh7U9EAKiK4aImhFlvKh8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1087062087868-8bn103veu4kgs6m5mdbimf1l71ttqgc1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Payment">
+
+
+    <EditText
+        android:id="@+id/orderamount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="amount"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:layout_margin="20dp"
+        android:inputType="number"/>
+
+
+    <Button
+        android:id="@+id/startpayment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="#02b89a"
+        android:onClick="pay"
+        android:text="Start Payment"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/feedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="#02b89a"
+        android:onClick="callFeedback"
+        android:text="Feedback"
+        android:textColor="#ffffff" />
+
+</LinearLayout>
